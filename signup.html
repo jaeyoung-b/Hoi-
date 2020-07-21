@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./submit.html" method="POST">
+        <input type="text" name="userid" placeholder="아이디 입력: " />
+        <br />
+        <input type="password" name="userpw" placeholder="비번 입력 :"/>
+        <br />
+        <br />
+        <label for="check_pw">비밀번호 확인 질문 :</label>
+        <select id="check_pw" name="check_pw">
+            <option>질문을 선택해주세요.</option>
+            <option value="q1">어머니 성함은?</option>
+            <option value="q2">아버지 성함은?</option>
+            <option value="q3">고모 성함은?</option>
+        </select>
+        <input type="text" placeholder="답변" />
+        <br />
+        <br />
+        <label for="intro_me">자기소개 : </label>
+        <textarea cols="50" rows="30" id="intro_me"></textarea>
+        <button type="submit">SUBMIT</button>
+    </form> 
+</body>
+</html>
